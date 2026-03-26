@@ -2,10 +2,7 @@
 
 I'm a 6th-semester student passionate about Web Development and AI.
 
-- 🔭 I’m currently working on my **Weather Dashboard** project.
-- 🌱 I’m currently learning **Advanced SQL and JavaScript**.
-- ⚡ Fun fact: I'm building my GitHub "Green Wall" every single day!
-
+- 
 <<<<<<< HEAD
 ## 🛠️ Tech Stack
 - **HTML5** (Structure)

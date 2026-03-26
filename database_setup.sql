@@ -38,3 +38,6 @@ VALUES (33, 82, TRUE);
 -- 6. Check karne ke liye Queries (Last mein)
 SELECT * FROM WEATHER_GODS WHERE element LIKE '%Rain%';
 SELECT * FROM Weather_Logs ORDER BY id DESC;
+
+INSERT INTO Weather_Logs (temperature, humidity, rain_occurred) 
+VALUES (30, 78, TRUE); -- Aaj ka naya data badal kar dalo

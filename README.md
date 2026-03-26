@@ -28,3 +28,17 @@ I have included a `database_setup.sql` file to demonstrate my **SQL** skills.
 - **Theme:** Mythological Weather Deities.
 - **Concepts:** Table creation, Constraints (Primary Key), and Data Insertion.
 - **Purpose:** To show how weather data could be categorized in a backend system.
+
+
+# 🌦️ Weather Dashboard
+A web application that displays real-time weather data and logs history using SQL.
+
+## 🚀 Features
+* Real-time weather updates.
+* Search by city name.
+* Historical logs stored in a SQL database.
+
+## 🛠️ Tech Stack
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend/Data:** SQL (database_setup.sql)
+* **Tools:** Git & GitHub

@@ -18,3 +18,17 @@ INSERT INTO WEATHER_GODS (id, name, element, culture, power_description) VALUES
 
 -- 3. Query to see all Rain-related gods
 SELECT * FROM WEATHER_GODS WHERE element LIKE '%Rain%';
+
+USE GODS;
+CREATE TABLE IF NOT EXISTS Weather_Logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    temperature INT,
+    humidity INT,
+    rain_occurred BOOLEAN
+);
+INSERT INTO Weather_Logs (temperature, humidity, rain_occurred) 
+VALUES (32, 85, TRUE), (35, 40, FALSE), (28, 90, TRUE), (33, 45, FALSE);
+
+-- Aaj ka naya data (Example)
+INSERT INTO Weather_Logs (temperature, humidity, rain_occurred) 
+VALUES (33, 82, TRUE);

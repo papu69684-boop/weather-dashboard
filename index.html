@@ -18,7 +18,72 @@
             <p id="temp">--°C</p>
             <p id="desc">Condition</p>
         </div>
+    
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Step 4: Dynamic Background Classes */
+        .sunny { background: linear-gradient(to bottom, #FFD700, #FFA500); }
+        .rainy { background: linear-gradient(to bottom, #4A90E2, #1A237E); }
+        .cloudy { background: linear-gradient(to bottom, #BDC3C7, #2C3E50); }
+        
+        .dashboard-card { padding: 40px; border-radius: 20px; color: white; text-align: center; font-family: sans-serif; }
+        .forecast-row { display: flex; justify-content: space-around; margin-top: 20px; }
+        .mini-card { background: rgba(255,255,255,0.2); padding: 10px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pappu AI Weather Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🌤️ Pappu AI Dashboard</h1>
+            <p>Real-time Weather Insights & AI Advice</p>
+        </header>
+
+        <div class="button-group">
+            <button class="btn btn-primary" onclick="alert('Fetching Latest Data...')">🔄 Refresh Data</button>
+            <button class="btn btn-secondary" onclick="window.location.href='https://github.com/papu69684-boop'">🐙 My GitHub</button>
+            <button class="btn btn-accent" id="themeBtn">🌓 Switch Theme</button>
+        </div>
+
+        <div class="weather-card">
+            <h2 id="status">Loading...</h2>
+            <div class="stats">
+                <div class="stat-box">
+                    <span>Temp</span>
+                    <strong id="temp">--°C</strong>
+                </div>
+                <div class="stat-box">
+                    <span>Humidity</span>
+                    <strong id="hum">--%</strong>
+                </div>
+            </div>
+            <p class="advice">"Pehle data update karo, phir advice milegi!"</p>
+        </div>
     </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+</body>
+</html>
+</body>
+</html>
     <script src="script.js"></script>
 </body>
 </html>

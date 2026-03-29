@@ -41,3 +41,19 @@ SELECT * FROM Weather_Logs ORDER BY id DESC;
 
 INSERT INTO Weather_Logs (temperature, humidity, rain_occurred) 
 VALUES (30, 78, TRUE); -- Aaj ka naya data badal kar dalo
+
+-- 1. User preferences save karne ke liye
+CREATE TABLE IF NOT EXISTS user_prefs (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    temp_unit VARCHAR(1) DEFAULT 'C', -- 'C' for Celsius, 'F' for Fahrenheit
+    theme VARCHAR(10) DEFAULT 'light' -- 'light', 'dark', or 'auto'
+);
+
+-- 2. Favorite cities save karne ke liye
+CREATE TABLE IF NOT EXISTS city_bookmarks (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    city_name VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Ek default setting insert kar dete hain
+INSERT INTO user_prefs (temp_unit, theme) VALUES ('C', 'light');
